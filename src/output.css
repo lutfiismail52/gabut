@@ -610,6 +610,16 @@ video {
   margin-right: auto;
 }
 
+.mx-6{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -895,6 +905,16 @@ video {
     margin-bottom: 1rem;
   }
 
+  .sm\:mx-14{
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
+
+  .sm\:mx-20{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
   .sm\:mb-12{
     margin-bottom: 3rem;
   }
@@ -959,6 +979,11 @@ video {
     margin-right: 5rem;
   }
 
+  .md\:mx-24{
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
   .md\:mb-12{
     margin-bottom: 3rem;
   }
@@ -1006,12 +1031,29 @@ video {
     margin-right: 0px;
   }
 
+  .lg\:mx-28{
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
   .lg\:mb-0{
     margin-bottom: 0px;
   }
 
   .lg\:mb-12{
     margin-bottom: 3rem;
+  }
+
+  .lg\:ml-72{
+    margin-left: 18rem;
+  }
+
+  .lg\:ml-8{
+    margin-left: 2rem;
+  }
+
+  .lg\:mr-0{
+    margin-right: 0px;
   }
 
   .lg\:block{
@@ -1034,8 +1076,16 @@ video {
     width: 20rem;
   }
 
+  .lg\:w-1\/2{
+    width: 50%;
+  }
+
   .lg\:items-center{
     align-items: center;
+  }
+
+  .lg\:justify-center{
+    justify-content: center;
   }
 
   .lg\:justify-around{
@@ -1057,6 +1107,10 @@ video {
 
   .lg\:pt-6{
     padding-top: 1.5rem;
+  }
+
+  .lg\:pl-96{
+    padding-left: 24rem;
   }
 
   .lg\:text-3xl{
